@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red;
+        }
+
+        h1 {
+            background-color: aqua;
+        }
+
+        img {
+            width: 30px;
+            height: 100px;
+        }
+
+        #img:hover {
+            width: 300px;
+            height: 1000px;
+        }
+
+        #meu_id {
+            border: 1px solid black
+        }
+
+        #borda_grossa {
+            border: 5px dashed black
+        }
+
+        .remover_estilo {
+            text-decoration: none;
+        }
+
+        p:hover {
+            font-weight: bold;
+        }
+
+        .nome_proprios:hover{text-transform: capitalize;}
+
+        #enviar{background-color:  rgb(96, 96, 134); width: 50px; border: 1px solid black; border-radius: 10px; padding: 8px; color: whitesmoke;}
+
+        #enviar:hover{background-color: aqua; color: black; width: 300px;}
+
+        #enviar::after{content: "enviar";}
+
+        #enviar:hover::after{content: "Geralmente ID é único então não use o id enviar em outro seletor, pvfv";}
+        
+        
+        </style>
+</head>
+
+<p>
+    <a href="outro_pagina.html" target="_blank" ; class="remover_estilo">Vai para outra página</a>
+</p>
+<body>
+    
+    <p>sou um paragrafo</p>
+    
+    <h1>sou um header grande</h1>
+    
+
+    <img src=" https://yt3.ggpht.com/ytc/AAUvwnh8uSXNsEBqViI4hmRIRGfdVngmV4Tc1r-sM4xqKQ=s176-c-k-c0x00ffffff-no-rj"
+    id="img:hover">
+    <!--colocar link de uma imagem, pasta de driver ou site></colocar-->
+    
+    <ul>
+        <li><i id="borda_grossa" class="remover_estilo">italico</i></li>
+        <li><b class="remover_estilo">negrito</b><i>
+            <li><u class="remover_estilo">underline</u></li>
+            <li><s class="remover_estilo">riscado</s></li>
+            <li></li>
+            
+        </ul>
+        <p><u class="remover_estilo">sem underline</u></p>
+        
+        <p>outro paragrafo</p>
+        
+        <p>teste</p>
+        <p>teste</p>
+        <p>teste</p>
+        <p>teste</p>
+        <p>teste</p>
+        
+        
+        <p><s id="unico">sou unico</s></p>
+        
+        <h2 style="background-color: purple; color: whitesmoke;">Título até que grande</h2>
+        
+        <u style="text-decoration: none;">underline</u>
+
+        <s style="text-decoration: none;">riscado</s>
+        
+        <p class="nomes_proprios">andrei jose da silveira</p>
+        
+        <p class="nomer_proprios">ANDREI JOSE DA SILVEIRA</p>
+        
+        <a id="enviar" href="#">CLIQUE AQUI</a>
+        
+        <a href="https://oliota.com" ; id="meu_id" class="remover_estilo">Link do Professor</a>
+
+        <a href="pagina03.html">Vá para a Página 03</a>
+        <!--seletor para colocar um link, site-->
+        
+    </body>
+    
+    </html>
